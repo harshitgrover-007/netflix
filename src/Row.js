@@ -34,7 +34,7 @@ function Row({ title, fetchUrl, isLargeRow = false}) {
                                     isLargeRow ? movie.poster_path : movie.backdrop_path
                                 }`}
                                 alt={movie.name}
-                            />
+                            /> 
                         )
                     )}
                 </div>
